@@ -3,6 +3,7 @@ package dacn.com.tour.bootstrap;
 import dacn.com.tour.enums.StatusAction;
 import dacn.com.tour.model.Account;
 import dacn.com.tour.model.Booking;
+import dacn.com.tour.model.Image;
 import dacn.com.tour.model.Tour;
 import dacn.com.tour.repository.AccountRepository;
 import dacn.com.tour.repository.BookingRepository;

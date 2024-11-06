@@ -6,7 +6,9 @@ import lombok.experimental.FieldDefaults;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
+
 import java.sql.Timestamp;
+import java.util.Set;
 import java.util.UUID;
 
 @Getter
@@ -43,5 +45,7 @@ public class Post {
 
     @ManyToOne
     Account account;
+    @OneToMany
+    Set<Image> images;
 
 }
